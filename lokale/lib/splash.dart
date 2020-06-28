@@ -47,7 +47,7 @@ class _HomeState extends State<Home> {
                   left: -107,
                   child: Image(
                       image: AssetImage(
-                        'assets/images/vector.svg',
+                        'assets/images/vector.png',
 
                       ))
               ),
@@ -56,7 +56,7 @@ class _HomeState extends State<Home> {
                   left: -63,
                   child: Image(
                       image: AssetImage(
-                      'assets/images/vector1.svg',
+                      'assets/images/vector1.png',
 
                   ))
               ),

@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import "package:flutter/material.dart";
 import 'package:flutter/painting.dart';
 import 'package:lokale/splash.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 void main() => runApp(MaterialApp(
   home: MyApp(),
@@ -82,24 +81,27 @@ class _MyAppState extends State<MyApp> {
         ),Positioned(
         top: 58,
         left: 303,
-        child: SvgPicture.asset(
-        'assets/images/vector.svg',
-        semanticsLabel: 'vector'
-        );
+        child: Image(
+            image: AssetImage(
+                'assets/images/sphere1.png',
+
+            ))
         ),Positioned(
         top: 11,
         left: 225,
-        child: SvgPicture.asset(
-        'assets/images/vector.svg',
-        semanticsLabel: 'vector'
-        );
+        child: Image(
+            image: AssetImage(
+                'assets/images/sphere2.png',
+
+            ))
         ),Positioned(
         top: 24,
         left: 365,
-        child: SvgPicture.asset(
-        'assets/images/menuicon.svg',
-        semanticsLabel: 'menuicon'
-        );
+        child: Image(
+            image: AssetImage(
+                'assets/images/menuicon.png',
+
+            ))
         ),
         ]
         )
@@ -141,10 +143,11 @@ class _MyAppState extends State<MyApp> {
         ),Positioned(
         top: 13,
         left: 17,
-        child: SvgPicture.asset(
-        'assets/images/searchicon.svg',
-        semanticsLabel: 'searchicon'
-        );
+        child:Image(
+            image: AssetImage(
+                'assets/images/searchicon.png',
+
+            ))
         ),Positioned(
         top: 15,
         left: 43,
@@ -331,31 +334,35 @@ class _MyAppState extends State<MyApp> {
         Positioned(
         top: 0,
         left: 0,
-        child: SvgPicture.asset(
-        'assets/images/tab.svg',
-        semanticsLabel: 'tab'
-        );
+        child: Image(
+            image: AssetImage(
+                'assets/images/tab.png',
+
+            ))
         ),Positioned(
         top: 42.32025146484375,
         left: 45,
-        child: SvgPicture.asset(
-        'assets/images/homeicon.svg',
-        semanticsLabel: 'homeicon'
-        );
+        child: Image(
+            image: AssetImage(
+                'assets/images/homeicon.png',
+
+            ))
         ),Positioned(
         top: 45.32025146484375,
         left: 342,
-        child: SvgPicture.asset(
-        'assets/images/bookmarkicon.svg',
-        semanticsLabel: 'bookmarkicon'
-        );
+        child: Image(
+            image: AssetImage(
+                'assets/images/bookmarkicon.png',
+
+            ))
         ),Positioned(
         top: 11.32025146484375,
         left: 183,
-        child: SvgPicture.asset(
-        'assets/images/gps.svg',
-        semanticsLabel: 'gps'
-        );
+        child: Image(
+            image: AssetImage(
+                'assets/images/gps.png',
+
+            ))
         ),
         ]
         )
@@ -363,10 +370,10 @@ class _MyAppState extends State<MyApp> {
         ),
         ]
         )
-        );
+]        ));
         }
         }
 
         ]));
   }
-}
+
